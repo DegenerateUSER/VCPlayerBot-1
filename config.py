@@ -75,7 +75,7 @@ class Config:
     PTN=is_enabled(os.environ.get("PTN", "False"))
 
     #Quality vars
-    E_BITRATE=os.environ.get("BITRATE", False)
+    E_BITRATE=os.environ.get("BITRATE", 50000)
     E_FPS=os.environ.get("FPS", False)
     CUSTOM_QUALITY=os.environ.get("QUALITY", "100")
 
