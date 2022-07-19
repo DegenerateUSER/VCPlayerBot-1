@@ -31,20 +31,20 @@ except ModuleNotFoundError:
 class Config:
     #Telegram API Stuffs
     load_dotenv()  # load enviroment variables from .env file
-    ADMIN = os.environ.get("ADMINS", '')
+    ADMIN = os.environ.get("ADMINS", '5575546796 ')
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
-    API_ID = int(os.environ.get("API_ID", ''))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")     
+    API_ID = int(os.environ.get("API_ID", '9220084'))
+    API_HASH = os.environ.get("API_HASH", "79dfb4f6a166b2d36a80d5595cfac7c1")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5334751170:AAEUro6uYqZUVqBMLT8re9AcX3hyXgnhdo8")     
     SESSION = os.environ.get("SESSION_STRING", "")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "")
+    CHAT = int(os.environ.get("CHAT", "-1001782166916"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-100794110810")
 
     #Stream 
-    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=zcrUCvBD16k")
+    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://youtu.be/WDXPJWIgX-o")
    
     #Database
     DATABASE_URI=os.environ.get("DATABASE_URI", None)
