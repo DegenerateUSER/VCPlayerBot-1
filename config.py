@@ -40,8 +40,8 @@ class Config:
     SESSION = os.environ.get("SESSION_STRING", "AQBSe9IZrK3JnSLZnqNWu2uvUAjYHJfKERgvLMgmhlbZ4K5C_0wyBbdIel22KK_pF_YlYho-eBnqmPrW1SYN9SP_gMEla5NCP6HYj1brHB2WFqCqFKNfQm2P_vPHYAZiZVEC6s9OS4qNygw2FTL7GQ-0hApO-rNNIw3V67MV8Ez-0osnAhWXLl3ZS7S6mfvAC_PfkDYgo6yB1_zs2it4YRrX93Y_29RyFLpEA8Id8MS_SsgKqpZY1h01taJ7nDhAjk7HqYAf5Byr4Ns4FfXcQ08gSJmVs0_xlEy3rEpJWzoQeWmc1nKVRqQN20UvCxaf70Qt8qF1M0N-sKTUSGlfFBSrAAAAAS5s58wA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", "-1001528177104"))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001528177104")
+    CHAT = int(os.environ.get("CHAT", "-1001334109620"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001334109620")
 
     #Stream 
     STREAM_URL=os.environ.get("STARTUP_STREAM", "https://youtu.be/WDXPJWIgX-o")
