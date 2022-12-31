@@ -36,8 +36,8 @@ class Config:
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
     API_ID = int(os.environ.get("API_ID", '9220084'))
     API_HASH = os.environ.get("API_HASH", "79dfb4f6a166b2d36a80d5595cfac7c1")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5394202654:AAERlngjUUtG4BxDbq0YaGVWlF3yN6nhOIk")     
-    SESSION = os.environ.get("SESSION_STRING", "AQA_i2PMNQCEY5qjPT5qNfEr9Fxbcj4YLiGzB5QoA3S6aekGh0qNjH3jRWbpbhvBR9McO2BypNSW9PORn9lEpRy-hZRgzSGhdJIAu9inTWL-Pf9Al7A2NH-_IPyGOAHH2fNv1fRydGOmcHUqzWL7olkIj7_ZlWLqBg5wbaKXEKBCYZ5YqBm_1w9A5X4LzLOpjlirPHgsGcvxJhAcYbaKkqedOlqKxKLx-MT5vHkLEtpwQu06ejM1Gbkxwc4P5w-ecJYrcPE3-cNFSLPU-T7trcKKv1n4tvCnY5Qh7Say7XYhb3FmXeCvN2JXzBtz9JxNQm7QLv2fvOSg5_R2xQNFszcdAAAAAS5s58wA")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5584760215:AAFKvb3nz5mcTD7VWFpYWgUqt1q7wm4gJ4I")     
+    SESSION = os.environ.get("SESSION_STRING", "AQCUOJYnxWIghxxcgyk-hY94jU1AjdDOYzTlZwnI6mrJUQjJLaYfR35nGAJs0inRj4p3wRfpkP4RK6HkSNOcuZgllpbGLqIx5e3D47wIf3mafP0b0-zqVQUZcXetRDeRaSFOapjbNtKYdJUG0RJcOrr5G449dq-xORyJFfkAHnHtS3KeoWDPqWtzkzPIg17xKTuUDIsrS9ywXcfdPG4VScUW8RGF3rBEE5EHG45Z-AwDcfq7tybsJW6ufQUOr07QogzinnZsIHMrk5vMN4AJGZ4yWmOvNO7-oRt5-VIDgZApbe_sysdI9ubpu88oCHtqw0lRJCurTQmOJai38pluvVs4AAAAAS5s58wA")
 
     #Stream Chat and Log Group
     CHAT = int(os.environ.get("CHAT", "-1001334109620"))
